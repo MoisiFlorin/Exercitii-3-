@@ -1,3 +1,5 @@
+/*
+
 //Fac adunarea
 function sum(a, b) {
     var add = a + b;
@@ -79,6 +81,66 @@ function multiply2(number1, number2) {
 }
 
 console.log('The result of multiplying two numbers is: ' + multiply2(2, 10));
+
+*/
+
+
+
+
+//Exercitii facute pe 23.01.
+
+
+//Exercitiu de pe mail
+/*
+var res = input();
+
+function input() {
+    var userInput = prompt('Enter a number: ');
+    if (isNaN(userInput)) {
+        return -1;
+    } else {
+        return userInput;  
+    }
+}
+
+   
+if(res === -1) {
+    alert('Not a Number!'); 
+} else {
+    alert(res);
+}
+
+*/
+
+
+// Write a function called capitalize that takes a string and returns that string with only the first letter capitalized
+
+/*
+
+var input = capitalize();
+
+function capitalize() {
+    var userInput = prompt('Enter a word to be capitalized: ');
+    return userInput.charAt(0).toUpperCase() + userInput.slice(1); 
+    
+}
+
+alert('The word is now capitalized: ' + input);
+
+*/
+
+// Write a function called lastLetter that takes a string and returns the very last letter of that string:
+
+var input = lastLetter();
+
+
+function lastLetter() {
+    var userInput = prompt('Enter a word to show it`s last letter: ');
+    var word = userInput[userInput.length - 1];
+    return word;
+}
+
+alert('This is the last letter: ' + input);
 
 
 
