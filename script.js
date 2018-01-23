@@ -1,5 +1,5 @@
 
-
+/*
 //Fac adunarea
 function sum(a, b) {
     var add = a + b;
@@ -131,7 +131,7 @@ alert('The word is now capitalized: ' + input);
 
 // Write a function called lastLetter that takes a string and returns the very last letter of that string:
 
-/*
+
 var input = lastLetter();
 
 
@@ -143,6 +143,6 @@ function lastLetter() {
 
 alert('This is the last letter: ' + input);
 
-*/
+
 
 
