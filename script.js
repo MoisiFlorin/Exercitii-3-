@@ -1,4 +1,4 @@
-/*
+
 
 //Fac adunarea
 function sum(a, b) {
@@ -35,8 +35,8 @@ function sum2(add, minus) {
     return add2;
 }
 
-var num = parseInt(sum(2, 5)); //Transform din string in numar ca sa nu imi dea NaN
-var num2 = parseInt(diff(6, 3));
+var num = (sum(2, 5)); 
+var num2 = (diff(6, 3));
 
 console.log('Sum result of the first two opperations is: ' + sum2(num, num2));
 
@@ -46,8 +46,8 @@ function sum3(multi, div) {
     return add3;
 }
 
-var num3 = parseInt(multiply(2, 2));
-var num4 = parseInt(divide(8, 2));
+var num3 = (multiply(2, 2));
+var num4 = (divide(8, 2));
 
 console.log('Sum result of the last two opperations is: ' + sum3(num3, num4));
 
@@ -57,8 +57,8 @@ function sumAll(sum2, sum3) {
     return total;
 }
 
-var num5 = parseInt(sum2(num, num2));
-var num6 = parseInt(sum3(num3, num4));
+var num5 = (sum2(num, num2));
+var num6 = (sum3(num3, num4));
 
 console.log('Total sum result is: ' + sumAll(num5, num6));
 
@@ -82,7 +82,7 @@ function multiply2(number1, number2) {
 
 console.log('The result of multiplying two numbers is: ' + multiply2(2, 10));
 
-*/
+
 
 
 
@@ -131,6 +131,7 @@ alert('The word is now capitalized: ' + input);
 
 // Write a function called lastLetter that takes a string and returns the very last letter of that string:
 
+/*
 var input = lastLetter();
 
 
@@ -142,6 +143,6 @@ function lastLetter() {
 
 alert('This is the last letter: ' + input);
 
-
+*/
 
 
